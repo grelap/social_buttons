@@ -1,0 +1,264 @@
+/* general */
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #455a64;
+}
+
+h1 {
+  color: #90a4ae;
+  font-size: 5em;
+  border: 1px dashed #607d8b;
+  padding: 20px;
+  margin-bottom: 0;
+  font-family: 'Abel', sans-serif;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+}
+
+h3 {
+  font-family: 'Abel', sans-serif;
+  border-top: 1px dashed #90a4ae;
+}
+
+p {
+  color: #90a4ae;
+  border-bottom: 1px dashed #607d8b;
+  padding-bottom: 15px;
+  font-family: 'Abel', sans-serif;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+
+footer h3 {
+  margin-top: 40px;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+  color: lightgrey;
+}
+
+.container  {
+  width: 650px;
+  margin: 0 auto;
+}
+
+/*======= containers for buttons sections =========*/
+.social_one, .social_two, .social_three{
+  margin: 20px auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.social_one {
+  background-color: white;
+}
+
+.social_two {
+  background-color: #37474f;
+}
+
+.social_three {
+  margin-top: -40px;
+}
+
+/*=================================================*/
+.container p, .container h1 {
+  text-align: center;
+}
+
+/*========== first buttons section ====================*/
+.icon-btn_first {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: .3s;
+}
+
+.icon-btn_first:hover {
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  border: 1px solid white;
+}
+
+.twitter, .facebook, .google, .instagram, .github {
+  font-size: 3em;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+.twitter {
+  background-color: #4099FF;
+  border: 1px solid #4099FF;
+}
+
+.twitter:hover {
+  color: #4099FF;
+  border: 1px solid #4099FF;
+}
+.facebook {
+  background-color: #3B5998;
+  border: 1px solid #3B5998;
+}
+.facebook:hover {
+  color: #3B5998;
+  border: 1px solid #3B5998;
+}
+.google {
+  background-color: #DB5A3C;
+  border: 1px solid #DB5A3C;
+}
+.google:hover {
+  color: #DB5A3C;
+  border: 1px solid #DB5A3C;
+}
+
+.instagram {
+  background-color: #5C3D2E;
+  border: 1px solid #5C3D2E;
+}
+
+.instagram:hover {
+  color: #5C3D2E;
+  border: 1px solid #5C3D2E;
+}
+.github {
+  background-color: #4183C4;
+  border: 1px solid #4183C4;
+}
+
+.github:hover {
+  color: #4183C4;
+  border: 1px solid #4183C4;
+}
+/*=================================================*/
+/*========== second buttons section ===============*/
+.icon-btn_second {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: .3s;
+  border: 0;
+  background-color: red;
+  border: 1px solid red;
+}
+
+.icon-btn_second:hover {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  background-image: radial-gradient(white 50%, transparent 50%);
+}
+
+.twitter_second, .facebook_second, .google_second, .instagram_second, .github_second {
+  font-size: 2.3em;
+  text-align: center;
+  line-height: 2.3em;
+}
+
+.twitter_second:hover, .facebook_second:hover, .google_second:hover, .instagram_second:hover, .github_second:hover {
+  color: red; 
+}
+
+.twitter_second:hover:after, .facebook_second:hover:after, .google_second:hover:after, .instagram_second:hover:after, .github_second:hover:after {
+  position: absolute;
+  font-family: 'Abel', sans-serif;
+  font-size: 0.3em;
+  color: lightgrey;
+  padding: 1px;
+  top: 55px;
+}
+
+.twitter_second:hover:after {
+  content: "twitter";
+  left: 28px;
+}
+
+.facebook_second:hover:after {
+  content: "facebook";
+  left: 24px;
+}
+
+.google_second:hover:after {
+  content: "google+";
+  left: 28px;
+}
+
+.instagram_second:hover:after {
+  content: "instagram";
+  left: 24px;
+}
+
+.github_second:hover:after {
+  content: "github";
+  left: 29px;
+}
+
+/* ==================================================*/
+/*========== third buttons section ==================*/
+.icon-btn_three {
+  width: 140px;
+  height: 40px;
+  margin: 10px;
+  font-size: 2.3em;
+  padding: 15px 21px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: .3s;
+  background-image: linear-gradient(45deg, white 10%, transparent 50%);
+  border: 3px solid #b9f6ca;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.icon-btn_three:hover {
+  width: 140px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+  transition: .5s;
+  background-position: 0 100%;
+  background-image: linear-gradient(to left top, #455A64, #b9f6ca);
+  color: #455A64;
+}
+
+i span {
+  font-size: 20px;
+  color: #b9f6ca;
+  padding-left: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+/* ==================================================*/
